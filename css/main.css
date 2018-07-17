@@ -1,0 +1,135 @@
+/***BASE STYLES***/
+
+body {
+  font-family: 'Oswald', sans-serif, 'Quattrocento', serif;
+}
+
+.top-three, .mid-two, .bottom-three {
+  width: 100%;
+  overflow: auto;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+}
+
+p span {
+  font-family: 'Oswald', sans-serif;
+}
+
+/***TOP THREE, ORANGE ON LEFT**/
+
+.top-left {
+  width: 50%;
+  height: 350px;
+  background-color: #F35C5C;
+  float: left;
+}
+
+#bold-large-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 30px 10px 30px 10px;
+  text-align: center;
+}
+
+.large-text {
+  font-family: 'Quattrocento', serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 35px;
+  text-align: center;
+}
+
+/***TOP THREE, BLUE ON RIGHT***/
+
+.top-blue {
+  width: 50%;
+  height: 175px;
+  background-color: #4353A9;
+  float: left;
+}
+
+.top-blue p {
+  padding: 43.5px 30px;
+}
+
+/*** TOP THREE, SEAFOAM GREEN***/
+
+.top-seafoam {
+  width: 50%;
+  height: 175px;
+  background-color: #D7F3ED;
+  float: left;
+}
+
+.top-seafoam p {
+  padding: 42px 30px;
+}
+
+/***MIDDLE SECTION***/
+
+.left-blue {
+  background-color: #4353A9;
+  width: 50%;
+  height: 175px;
+  float: left;
+}
+
+.left-blue p {
+  padding: 43.5px 30px;
+}
+
+.right-green {
+  background-color: #4C9AAA;
+  width: 50%;
+  height: 175px;
+  float: left;
+}
+
+.right-green p {
+  padding: 43.5px 30px;
+}
+
+/***BOTTOM THREE***/
+
+.left-seafoam {
+  width: 100%;
+  height: 175px;
+  background-color: #D7F3ED;
+  float: left;
+}
+
+.left-seafoam p {
+  padding: 43.5px 30px;
+}
+
+.bottom-green {
+  background-color: #4C9AAA;
+  width: 100%;
+  height: 175px;
+  float: left;
+  clear: both;
+}
+
+.bottom-green p {
+  padding: 43.5px 80px;
+}
+
+.bottom-squares {
+  float: left;
+  width: 50%;
+}
+
+.bottom-orange {
+  width: 50%;
+  height: 350px;
+  background-color: #F35C5C;
+  float: left;
+}
+
+.bottom-three {
+  overflow: hidden;
+}
